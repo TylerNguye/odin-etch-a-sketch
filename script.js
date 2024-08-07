@@ -52,6 +52,8 @@ function initSquareAttributes(square, side) {
     square.style.opacity = 0.01
     square.style.width = side + "px"
     square.style.height = side + "px"
+    square.style.backgroundColor = `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(Math.random() * 256)},
+                                        ${Math.floor(Math.random() * 256)})`
 }
 
 function initSquareBorder(side) {
