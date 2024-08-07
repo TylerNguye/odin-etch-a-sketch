@@ -21,3 +21,11 @@ h1 {
     border: 1px solid black;
     border-collapse: collapse;
 }
+
+button {
+    font-size: 16px;
+    background-color: aquamarine;
+    font-family: monospace;
+    font-weight: 700;
+    margin-left: 0.5%;
+}
