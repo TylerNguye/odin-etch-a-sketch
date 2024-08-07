@@ -9,4 +9,12 @@ h1 {
 #grid-container {
     display: flex;
     flex-wrap: wrap;
+    border: 1px solid black;
+}
+
+.square {
+    border: 1px dashed black;
+    border-collapse: collapse;
+    opacity: 0;
+    background-color: red;
 }
